@@ -1,3 +1,12 @@
+body {
+    margin: 0 10%;
+    display: block;
+}
+/* footer*/
+footer {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Nunito', 'sans-serif';
     font-weight: 700;
@@ -34,6 +43,29 @@ section {
     width: 100%;
 }
 
+.font_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.font_title {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.lusitana {
+    font-family: 'Lusitana';
+}
+
+.nunito {
+    font-family: 'Nunito';
+}
+
+.orbitron {
+    font-family: 'Orbitron';
+}
+
 #blue {
     background-color: #4287f5;
 }
@@ -44,12 +76,4 @@ section {
 
 #green {
     background-color: #228c22;
-}
-
-#lusitana {
-    font-family: 'Lusitana';
-}
-
-#orbitron {
-    font-family: 'Orbitron';
 }
