@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Orbitron', 'sans-serif';
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Lusitana';
+}
+
+section {
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color_box {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100%;
+}
+
+.color_container {
+    width: 100%;
+}
+
+#blue {
+    background-color: #4287f5;
+}
+
+#gold {
+    background-color: #ffee30;
+}
+
+#green {
+    background-color: #228c22;
+}
+
+#lusitana {
+    font-family: 'Lusitana';
+}
+
+#orbitron {
+    font-family: 'Orbitron';
+}
